@@ -1,4 +1,11 @@
-Instalación (Linux preferentemente)
+El dockerfile básicamente obtiene los recursos del repositorio [https://github.com/ialbertomendoza/development-test] y lo establece en el servidor de apache para poder ser visualizado.
+
+## Requerimientos
+
+Docker
+
+
+## Instalación (Sobre un host con Linux preferentemente)
 
 Construcción de la imagen con las caracteristicas necesarias para iniciar el proyecto
 
@@ -11,3 +18,5 @@ Creación del contenedor con los parametros necesarios para la prueba, el puerto
 Inicio del servidor apache dentro del contenedor
 
 ##### $ /etc/init.d/apache2 start
+
+Versión del proyecto: Alpha 0.5
